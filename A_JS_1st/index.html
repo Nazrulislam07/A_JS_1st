@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+
+    
+    <script>
+                // string concatetion manually
+        var num1 = 10;
+        var num2 = 30;
+
+        document.write("number1="+ num1+ " number2 ="+num2 );
+
+        document.write("Nazrul" + " Islam");
+
+
+
+                // findout the length of string 
+
+        var text = ("I'm from Bangladesh");
+        // var text = promot("Enter your name: "); // you can get input from user
+        text.length;
+        var len = text.length;
+        document.write("Number of character"+len);
+        // you can print without declare a variable like document.write(text.length);
+
+
+
+            // Stirng ar index print kara
+
+        var text2 = "Bangladesh";
+        document.write(text2.charAt(5));
+
+            
+          // to UpperCase and LowerCase
+
+          var text3 = "Nazrul Islam";
+          text3 = text3.toUpperCase();
+          document.write(text3);  // same way we can do toLowerCase();
+
+
+        // concatenation by library function
+
+        document.write(text2.concat(text3));
+        // varible declare kareo concatenatio kara jabe -->  var text4 = (text2.concat(text3)); next line a document.write(text4);
+
+
+
+        // slice function 
+
+        var na = "I'm from Bangladesh. I live in the USA";
+        var an = na.slice(4,16); // aikhane index 4 theke 16 number index print karbe, index start from 0 
+        document.write(an);
+
+
+        // get input from user
+
+        var firstName = prompt("Enter your FirstName :");
+        var lastName = prompt("Enter your LastName :");
+
+    
+  
+       // break ar jonno imean new line
+
+      document.write("Nazrul Islam </br>");
+       document.write("I'm from Bangladesh</br>");
+    
+        
+           
+
+    </script>
+</div>
+
+    <script src="inde.js"></script>
+    <script src="index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
